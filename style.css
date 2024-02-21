@@ -1,0 +1,405 @@
+body,
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(60deg, #1c0707, #541e1e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.name {
+    font-size: 3.2em;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-family: Algerian;
+    text-align: center;
+    margin-left: 50px;
+    color: gold;
+}
+
+.flx {
+    display: flex;
+}
+
+.intologo {
+    height: 70vh;
+    margin-left: 150px;
+}
+
+.navbar {
+    background-image: linear-gradient(30deg, brown, rgb(87, 15, 15));
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.navlink {
+    font-size: 16px;
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+
+}
+
+.pigibox {
+    background-color: transparent;
+    font-size: 16px;
+    border-left: solid white 4px;
+    border-right: solid white 4px;
+    margin-right: 100px;
+    color: white;
+    width: 250px;
+    text-decoration: none;
+    font-family: Arial;
+
+
+}
+
+.navlink:hover {
+    color: red;
+}
+
+.intropara {
+    font-size: 22px;
+    font-family: Arial;
+    text-align: justify;
+    padding: 4px;
+    margin-left: 30px;
+    color: #b05a5a;
+}
+
+.introbtn {
+    font-size: 20px;
+    background-image: linear-gradient(30deg, brown, rgb(87, 15, 15));
+    color: white;
+    padding: 10px;
+    width: 45%;
+    margin-top: 30px;
+    border: solid transparent 1px;
+    margin-left: 10px;
+
+
+}
+
+.joinbtn {
+    font-size: 20px;
+    background-image: linear-gradient(30deg, brown, rgb(87, 15, 15));
+    color: white;
+    padding: 10px;
+    width: 45%;
+    margin-top: 15px;
+    border: solid transparent 1px;
+}
+
+.introbtn-freetrening {
+    font-size: 20px;
+    background-color: gold;
+    color: brown;
+    padding: 10px;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: solid gold 1px;
+
+
+}
+
+.introbtn-freetrening:hover {
+    background-image: linear-gradient(30deg, rgb(87, 15, 15), brown);
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.introbtn:hover {
+    background-image: linear-gradient(30deg, rgb(87, 15, 15), brown);
+    cursor: pointer;
+}
+
+.joinbtn:hover {
+    background-image: linear-gradient(30deg, rgb(87, 15, 15), brown);
+    cursor: pointer;
+}
+
+
+.leadclan {
+    font-size: 22px;
+    font-family: Arial;
+    text-align: justify;
+    padding: 4px;
+    margin-left: 30px;
+    color: brown;
+    font-family: Algerian;
+    font-size: 24px;
+}
+
+.Top-40 {
+    padding-top: 40px;
+}
+
+.Top-10 {
+    padding-top: 10px;
+}
+
+.introftr {
+    font-size: 18px;
+    width: 90%;
+    font-family: Arial;
+    color: #b05a5a;
+    margin-top: 20px;
+    padding-bottom: 14px;
+}
+
+.about-dev {
+    height: 400px;
+    width: 30%;
+    margin: 0px auto;
+    border: solid transparent;
+    border-radius: 12px;
+    border: solid rgb(207, 116, 116);
+    justify-content: center;
+}
+
+.wrap {
+    margin-bottom: 20px;
+}
+
+.flx-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.easypaly {
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: Algerian;
+    margin-left: 25%;
+}
+
+.margin-bttm-20 {
+    margin-bottom: 20px;
+}
+
+.easyplaypara {
+    width: 90%;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.easyplayimg {
+    height: 50%;
+    width: 70%;
+}
+
+.intropic {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.centericon {
+    background-image: linear-gradient(60deg, #1c0707, #541e1e);
+    height: 50px;
+    width: 50px;
+    border: solid red;
+    border-radius: 50px;
+    border: solid rgb(207, 116, 116);
+    justify-content: space-between;
+    position: absolute;
+    bottom: -435px;
+
+}
+
+
+.start {
+    color: rgb(207, 116, 116);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.startContant {
+    width: 30%;
+    padding: 10px;
+    border: solid rgb(207, 116, 116);
+    border-radius: 8px;
+    font-family: Arial;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+
+.startImg {
+    width: 16%;
+    padding: 10px;
+    border: solid rgb(207, 116, 116);
+    border-radius: 8px;
+    font-family: Arial;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+
+.localalbumimg {
+    height: 280px;
+    width: 75%;
+
+}
+
+.introparalast {
+    width: 45%;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+
+.logindivpara {
+    font-size: 22px;
+    font-family: Arial;
+    text-align: justify;
+    color: #b05a5a;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.logindiv {
+    margin-left: 20px;
+}
+
+.entrnumber {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 250px;
+    background: none;
+    outline: none;
+    border: solid #b05a5a 1px;
+    color: #b05a5a;
+}
+
+::placeholder {
+    color: #b05a5a;
+}
+
+.message {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 530px;
+    background: none;
+    outline: none;
+    border: solid #b05a5a 1px;
+    color: #b05a5a;
+}
+
+.introbtnlogin {
+    font-size: 20px;
+    background-image: linear-gradient(30deg, brown, rgb(87, 15, 15));
+    color: white;
+    padding: 8px;
+    width: 260px;
+    border: solid transparent 1px;
+    margin-left: 10px;
+}
+
+
+.introbtnlogin:hover {
+    background-image: linear-gradient(30deg, rgb(87, 15, 15), brown);
+    cursor: pointer;
+}
+
+.contactus {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-family: Algerian;
+    text-align: center;
+    color: gold;
+}
+
+.readme {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+    font-family: Algerian;
+    color: gold;
+}
+
+.footer {
+    width: 95%;
+    margin: 50px 0px 0px 30px;
+}
+
+.footerpara {
+    color: gold;
+    font-family: Arial;
+    font-size: 1.5em;
+    font-family: jokerman;
+    text-transform: capitalize;
+}
+
+.icon-discription {
+    color: #b05a5a;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.gold-color {
+    color: gold;
+
+}
+
+.footerpic {
+    background-image: url(img/Untitled.png);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.footerdivbttn {
+    position: relative;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    width: 500px;
+
+}
+
+.footertxtintro {
+    position: relative;
+    top: 20%;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-weight: 400px;
+    border-radius: 18px;
+    background-color: rgba(89, 11, 11, 0.9);
+}
+
+.footer-company{
+     margin-top: 100px;
+     color: yellow;
+     text-transform: capitalize;
+     font-size: 1.1em;
+     font-family: Arial, Helvetica, sans-serif;
+}
